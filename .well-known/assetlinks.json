@@ -1,6 +1,8 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.example.nexo",
@@ -10,12 +12,15 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.nexo.mobile",
       "sha256_cert_fingerprints": [
-        "30:49:10:3B:47:D2:B8:E0:1B:C7:36:CE:B8:40:E8:A2:55:7C:44:1B:4F:1F:4B:FD:72:2F:61:A2:28:4D:8A:17"
+        "30:49:10:3B:47:D2:B8:E0:1B:C7:36:CE:B8:40:E8:A2:55:7C:44:1B:4F:1F:4B:FD:72:2F:61:A2:28:4D:8A:17",
+        "A3:98:02:79:A9:0E:E6:F4:B2:6B:AB:D6:9A:C9:F0:4E:B1:C5:4A:DA:C3:80:41:29:8B:E3:7E:67:F1:45:64:75"
       ]
     }
   }
